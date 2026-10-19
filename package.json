@@ -1,0 +1,16 @@
+{
+  "name": "playwright-qa-portfolio",
+  "version": "1.0.0",
+  "description": "QA Automation portfolio using Playwright Test and JavaScript",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "test:report": "playwright show-report",
+    "test:smoke": "playwright test --grep @smoke"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
